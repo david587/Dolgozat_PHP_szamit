@@ -10,8 +10,14 @@
     margin-right: 10px;
 }
 .nav-link:hover{
-
+color: #ffc107;
+background-color: black;
 }
+.btn:hover{
+    color: #ffc107;
+background-color: black;
+}
+
 .underline{
     text-decoration: underline;
     text-decoration-color: #ffc107;
@@ -24,5 +30,16 @@
     font-size: 15px;
 }
 .form-control{
-    width: 80%;
+    width: 40%;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.one{
+    width: 160px;
+}
+.two{
+    flex: 1;
 }
