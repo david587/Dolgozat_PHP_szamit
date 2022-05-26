@@ -1,28 +1,28 @@
-/*
-File: style.css
-Author: Baráth Dávid
-Copyright: 2022, Baráth Dávid
-Group: Szoft 1 N
-Date: 2022.05.26
-Github: https://github.com/david587/
-Licenc: GNU GPL
-*/
-body{
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
-    background-color: aqua;
-}
-nav ul{
-    list-style-type: none;
+.nav-link{
+    color: black;
+    font-size: large;
+    background-color: #ffc107;
+    border-radius: 6px;
+    margin-top: 15px;
     
 }
-nav ul li{
-    display: inline-block;
+#margin{
+    margin-right: 10px;
 }
-nav ul li a{
-    text-decoration: none;
-    color: white;
-    background-color: tomato;
-    padding: 3px;
+.nav-link:hover{
+
+}
+.underline{
+    text-decoration: underline;
+    text-decoration-color: #ffc107;
+    border-radius: 5px;
+    
+}
+.notification{
+    color: rgb(167, 167, 167);
+    margin-top: 15px;
+    font-size: 15px;
+}
+.form-control{
+    width: 80%;
 }
