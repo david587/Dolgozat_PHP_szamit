@@ -12,7 +12,7 @@ echo file_get_contents("templates/head.html");
 $page= file_get_contents("templates/calc.html");
 
 function calcCrowd($testtomeg,$testmagassag,){
-    $height= pow(2,(int)$testmagassag);
+    $height= pow(2,(double)$testmagassag);
     $result = $testtomeg / $height;
     return $result;
 }
