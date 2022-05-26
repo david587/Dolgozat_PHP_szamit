@@ -28,10 +28,12 @@ if(!empty($_GET["testtomeg"]) and
     $result="Hiba! Helytelen bemenő adatok";
 }
 
+$round = sprintf("%0.2f", $result);
 
 
 
 
-$page=str_replace("{{ result }}",$result,$page);
+
+$page=str_replace("{{ result }}",$round,$page);
 echo $page;
 echo file_get_contents("templates/foot.html");
