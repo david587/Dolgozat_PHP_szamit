@@ -43,3 +43,9 @@ background-color: black;
 .two{
     flex: 1;
 }
+.about{
+    margin-top: 10px;
+    background-color: rgb(250, 246, 246);
+    border-radius: 5px;
+    padding: 8px;
+}
