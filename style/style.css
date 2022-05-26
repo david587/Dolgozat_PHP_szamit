@@ -1,0 +1,28 @@
+/*
+File: style.css
+Author: Baráth Dávid
+Copyright: 2022, Baráth Dávid
+Group: Szoft 1 N
+Date: 2022.05.26
+Github: https://github.com/david587/
+Licenc: GNU GPL
+*/
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: aqua;
+}
+nav ul{
+    list-style-type: none;
+    
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 3px;
+}

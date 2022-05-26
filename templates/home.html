@@ -1,0 +1,28 @@
+<!--
+File: home.html
+Author: Baráth Dávid
+Copyright: 2022, Baráth Dávid
+Group: Szoft 1 N
+Date: 2022.05.26
+Github: https://github.com/david587/
+Licenc: GNU GPL
+-->
+<h2>A testtömegindex számítást</h2>
+
+<form action="calc.php" method="get">
+    <div>
+        <label for="testtomeg" class="form-label">Testtömeg</label>
+        <input type="text" name="testtomeg" id="testtomeg"  class="form-control" placeholder="Kg">
+    </div>
+    <div>
+        <label for="testmagassag" class="form-label">Testmagasság</label>
+        <input type="text" name="testmagassag" id="testmagassag"  class="form-control" placeholder="m">
+    </div>
+    <p class="notification">Megjegyzés: A normális testtömegindex 18 és 24 közötti szám.</p>
+   
+    <button type="submit"
+    class="btn btn-warning mt-3">Számit</button><!--mert nem javascripttel kérjük el-->
+
+
+
+</form>
